@@ -14,7 +14,7 @@ Repository of PS Scripts created for various purposes.
   - Loop over fileshare/directory and check each filename for existence in the known valid file name list. 
     - If file name is not in list, take action such as delete, move, write subsequent list to csv etc.
 
-# [Cleanup Stale Files](/Scripts/SyncNPSConfig.ps1)
+# [Sync NPS Config](/Scripts/SyncNPSConfig.ps1)
 
 ## Purpose
   - Microsoft does not supply a method to have mutliple NPS Servers keep the same configuration
