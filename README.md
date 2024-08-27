@@ -14,6 +14,17 @@ Repository of PS Scripts created for various purposes.
   - Loop over fileshare/directory and check each filename for existence in the known valid file name list. 
     - If file name is not in list, take action such as delete, move, write subsequent list to csv etc.
 
+
+# [Create osTicket via API](/Scripts/CreateTicket_OSTicket.ps1)
+
+## Purpose
+  - Utilize osTicket API to create ticket.
+  - Potential Uses such as creating scheduled tasks to insert status check type tickets, SSL Certificate renewal reminders, etc.
+
+## Method
+  - Simply Calls osTicket API to create ticket. 
+
+
 # [Sync NPS Config](/Scripts/SyncNPSConfig.ps1)
 
 ## Purpose
@@ -24,3 +35,4 @@ Repository of PS Scripts created for various purposes.
 ## Method
   - Export NPS Config from "main" server.
   - Import NPS Config into "secondary" server. 
+
