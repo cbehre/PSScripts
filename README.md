@@ -24,8 +24,20 @@ Repository of PS Scripts created for various purposes.
 ## Method
   - Simply Calls osTicket API to create ticket. 
 
+# NPS Scripts
 
-# [Sync NPS Config](/Scripts/SyncNPSConfig.ps1)
+## [Backup NPS Config to Git](/Scripts/NPS/BackupNPSConfigToGit.ps1)
+
+## Purpose
+  - Backup NPS Configuration to a git repository.
+  - Protects and gives way back should changes break functionality.
+
+## Method
+  - Export NPS Config.
+  - Commit to git repository
+  
+
+## [Sync NPS Config](/Scripts/NPS/SyncNPSConfig.ps1)
 
 ## Purpose
   - Microsoft does not supply a method to have mutliple NPS Servers keep the same configuration
